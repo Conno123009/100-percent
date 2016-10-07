@@ -1,0 +1,116 @@
+{
+	"categories" : [
+		{  
+			"category": "General",
+			"color": "blue lighten-2",
+			"challenges":[  
+				{  
+					"name":"Beat the Game",
+					"desc":"Beat the game, of course."
+				},
+				{  
+					"name":"Obtain the Mask of Truth.",
+					"desc":"A Gold Skulltula can be found on the back of the Know-It-All Brothers' house. Use your sword to kill it and then backflip or jump attack into the token."
+				},
+				{  
+					"name":"Obtain the Fire and Ice Arrows.",
+					"desc":"Obtain both the Fire Arrows from Lake Hylia and the Ice Arrows from the Gerudo's Fortress."
+				},
+				{  
+					"name":"Retrieve Epona",
+					"desc":"Learn Epona's Song and retrieve Epona from Ingo's Ranch as Adult Link."
+				},
+				{  
+					"name":"Obtain the Cow in Link's House",
+					"desc":"Beat the obstacle course record in Lon Lon Ranch and Malon will deliver a cow to Link's House."
+				},
+				{  
+					"name":"Purchase all of the Bombchu Shop's stock",
+					"desc":"Purchase all of the Bombchu from the Bombchu Shop in the Back Alley of Castle Town."
+				}
+			]
+		},
+		{  
+			"category": "Collection",
+			"color": "blue lighten-2",
+			"challenges":[  
+				{  
+					"name":"Collect all 100 Golden Skulltula Tokens",
+					"desc":"Collect all the Golden Skulltula Tokens from around Hyrule. Check out the Golden Skulltula guide for a bit of a hand."
+				},
+				{  
+					"name":"Obtain all 20 Heart Containers.",
+					"desc":"This includes all 36 heart pieces as well as the hearts from bosses."
+				},
+				{  
+					"name":"Collect all 4 bottles.",
+					"desc":"Collect every empty bottle. The Cucco Lady has one in Kakariko Village, Princess Ruto has left one in Lake Hylia, Talon will reward you with one in Lon Lon Ranch and the Poe Collector will give you the final one in Castle Town."
+				},
+				{  
+					"name":"Find all 6 Great Fairies",
+					"desc":"Find all the Great Fairies of Hyrule, this includes learning the three magic spells that the Great Fairy of Magic teaches you."
+				},
+				{  
+					"name":"Learn all 13 Songs on the Ocarina",
+					"desc":"This includes the 12 songs that are visible as well as the Scarecrow's Song."
+				},
+				{  
+					"name":"Plant all 10 Magic Beans",
+					"desc":"As a child, purchase and plant all 10 Magic Beans from the man near Zora's River."
+				}
+			]
+		},
+		{  
+			"category": "Equipment",
+			"color": "blue lighten-2",
+			"challenges":[  
+				{  
+					"name":"Obtain the Golden Scale.",
+					"desc":"Get the Golden Scale through fishing."
+				},
+				{  
+					"name":"Obtain the Biggoron's Sword.",
+					"desc":"A Gold Skulltula can be found on the back of the Know-It-All Brothers' house. Use your sword to kill it and then backflip or jump attack into the token."
+				},
+				{  
+					"name":"Obtain the Mask of Truth.",
+					"desc":"A Gold Skulltula can be found on the back of the Know-It-All Brothers' house. Use your sword to kill it and then backflip or jump attack into the token."
+				},
+				{  
+					"name":"Obtain the Fire and Ice Arrows.",
+					"desc":"Obtain both the Fire Arrows from Lake Hylia and the Ice Arrows from the Gerudo's Fortress."
+				}
+			]
+		},
+		{  
+			"category": "Upgrades",
+			"color": "green lighten-2",
+			"challenges":[  
+				{  
+					"name":"50 Deku Seeds",
+					"desc":"Get all the upgrades to the Slingshot's Deku Seed capacity."
+				},
+				{  
+					"name":"30 Deku Sticks",
+					"desc":"Get all the capacity upgrades for the Deku Sticks."
+				},
+				{  
+					"name":"40 Deku Nuts",
+					"desc":"Fully upgrade the amount of Deku Nuts that you can hold."
+				},
+				{  
+					"name":"50 Arrows",
+					"desc":"Get all the capacity upgrades for the Fairy Bow (Quiver Upgrades)."
+				},
+				{  
+					"name":"40 Bombs",
+					"desc":"Fully upgrade the amount of Bombs that you can carry."
+				},
+				{  
+					"name":"Giant's Wallet",
+					"desc":"Fully upgrade your wallet so you can carry up to 500 Rupees."
+				}
+			]
+		}
+	]
+}

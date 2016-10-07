@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" >
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		
+		<title>100% - Game Completion Checklists</title>
+	    
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.cookie/1.3/jquery.cookie.js"></script>
+		<script type="text/javascript" src="js/featherlight.min.js"  charset="utf-8"></script>
+		<link rel="stylesheet" href="js/featherlight.min.css" type="text/css" />
+		<link rel="stylesheet" href="css/materialize.min.css"  type="text/css"  media="screen,projection"/>
+		<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:400,700'/>
+		<link rel="stylesheet" href="http://fonts.googleapis.com/icon?family=Material+Icons" />
+		<link rel="stylesheet" href="games/OOT/css/style.css"/>
+
+	</head>
+	<body>
+		<script type="text/javascript" src="js/materialize.min.js"></script>
+		
+		<ul id="slide-out" class="side-nav toc">
+			<!--li>
+				<!--div class="userView" style="background-color:#333399">
+					<!--<img class="background" src=""-->
+					<!--a href="#"><img class="circle" src="images/deku.png"></a>
+					<a href="#"><span class="white-text name">The Legend of Zelda</span></a>
+					<a href="#"><span class="white-text email">Ocarina of Time</span></a>
+				</div>
+			</li-->
+			<li><a href="index.html"><i class="material-icons">cloud</i>Home</a></li>
+			<li><div class="divider"></div></li>
+			<li><a href="games/OOT/checklist.html"><i class="material-icons">done</i>Ocarina of Time</a></li>
+			<li><div class="divider"></div></li>
+		</ul>
+		
+		<div class="navbar-fixed">
+			<nav>
+			  <div class="nav-wrapper">
+				<div class="col s3"><a data-activates="slide-out" href="#!" style="padding-left:20px" class="brand-logo"><i class="material-icons">menu</i>100%</a></div>
+				<div class="col s3" style="text-align:center" id="deb"></div>				
+				<div class="col s3">
+					<ul style="padding-right:10px" class="right hide-on-med-and-down">
+						<li><a href="index.html">Home</a></li>
+					</ul>
+				</div>
+			  </div>
+			  
+			</nav>
+			
+		</div>
+		
+		<script>
+			if (typeof(Storage) == "undefined")	document.getElementById("deb").innerHTML = "Sorry, your browser does not support HTML5 Web Storage... Completed items won't be stored.";
+		</script>
+		
+		<div id="container" class="container">
+			<script>
+				$(".brand-logo").sideNav();
+			</script>
+			
+			<div class="row">
+				<div class="col s12">
+					<div style="text-align:center" class="card-panel">
+						<h1>100%</h1>
+						<div class="header">Helping you complete games, properly</div>
+					</div>
+				</div>
+				<div class="col s6">
+					<div class="card">
+						<div class="card-image">
+						  <img src="https://upload.wikimedia.org/wikipedia/en/8/8e/The_Legend_of_Zelda_Ocarina_of_Time_box_art.png">
+						  <span class="card-title">The Legend of Zelda: Ocarina of Time</span>
+						</div>
+						<div class="card-content">
+						  <p>A complete (mostly) checklist for getting 100% of all equipment, upgrades, etc. Also includes a complimentary guide and checklist to finding all 100 Golden Skulltulas!</p>
+						</div>
+						<div class="card-action">
+						  <a href="games/OOT/checklist.html">View Completion List and Guide!</a>
+						</div>
+					  </div>
+				</div>
+				<div class="col s6">
+					<div class="card-panel">
+						<h5>More Games Soon</h5>
+					</div>
+				</div>
+			</div>
+          
+		</div>
+	</body>
+</html>

@@ -1,0 +1,27 @@
+.header {
+	font-weight: bold;
+}
+.smallHeader {
+	font-size:20px;
+}
+.skullNumber {
+	text-align:center;
+	font-size: 70px;
+}
+.skullTime  {
+	text-align:center;
+}
+.skullAge  {
+	text-align:center;
+}
+.skullNumber100 {
+	text-align:left;
+	font-size: 60px;
+	color:green;
+}
+a.invis { 
+	color: inherit;
+} 
+nav {
+	background-color:#333333;
+}
