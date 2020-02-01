@@ -41,20 +41,22 @@ $.getJSON("checklist.json", function(data){
 	// for each region (eg. Kokiri Forest or Goron City)
 	$.each(data.categories, function(entryIndex, entry){
 		//create new table
-		var $table = $( "<div class='card-panel " + this.color +  "'></div>" );
+		var $card = $( "<div class='card'></div>" );
+		var $table = $("<div class='card-body'></div>");
+		$card.append($table);
 		//fetch and print the tables heading
 		var $heading = $( "<h2></h2>" ).html( this.category );
 		$heading.append ( $( "<a name='" + this.category + "'/>" ));
 		//print table header row
 		$table.append( $("\
 					<div class='row'> \
-						<div class='col s2'> \
+						<div class='col '> \
 							<div class='header'>Challenge</div> \
 						</div> \
-						<div class='col s9'> \
+						<div class='col'> \
 							<div class='header'>Notes</div> \
 						</div> \
-						<div class='col s1'> \
+						<div class='col'> \
 							<div class='header'>Complete</div> \
 						</div> \
 					</div>")
@@ -65,9 +67,9 @@ $.getJSON("checklist.json", function(data){
 		//for each skulltula 'eg. 1 or 2'
 		$.each(this.challenges, function() {
 			var $line = $( "<div class='row'></div>" );
-			$line.append( $( "<div class='col s2'><div class='skullName'>" + this.name + "</div></div>"));
-			$line.append( $( "<div class='col s9'><div class='skullDesc'>" + this.desc + "</div></div>"));
-			$line.append ( $("<div class='col s1'><div class='skullCheck'><a id='checkbox_" + this.name + "' name='checkbox_" + this.name + "' class='czechbox btn-floating btn-large waves-effect waves-light red' onclick='ToggleCheckbox(this)');><i class='material-icons'>done</i></a></div></div>"));
+			$line.append( $( "<div class='col'><div class='skullName'>" + this.name + "</div></div>"));
+			$line.append( $( "<div class='col'><div class='skullDesc'>" + this.desc + "</div></div>"));
+			$line.append ( $("<div class='col'><div class='skullCheck'><button type='button' id='checkbox_" + this.name + "' name='checkbox_" + this.name + "' class='czechbox btn-floating btn-large waves-effect waves-light btn btn-light' onclick='ToggleCheckbox(this)');><i class='material-icons'>done</i></a></div></div>"));
 			//add it all to the table
 			$table.append( $line );
 		});
